@@ -30,4 +30,42 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  home: "Home"
+  help: "Help"
+  english: "English"
+  vietnamese: "Vietnamese"
+  log in: "Log in"
+  sign up now: "Sign up now"
+  sample app: "Sample App"
+  contact: "Contact"
+  about: "About"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  author_html: The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
+
+  static_pages:
+    home:
+      hometxt1: "Welcome to Sample Application"
+      hometxt2: "This is the home page for the Ruby on Rails Tutorial sample application."
+    help:
+      helptxt1_html: Get help on the Ruby on Rails Tutorial at the
+                <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
+                To get help on this sample app, see the
+                <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+                book</a>.
+    about:
+      abouttxt1_html: The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
+                      Tutorial</em></a>, part of the
+                      <a href="https://www.learnenough.com/">Learn Enough</a> family of
+                      tutorials, is a
+                      <a href="https://www.railstutorial.org/book">book</a> and
+                      <a href="https://screencasts.railstutorial.org/">screencast series</a>
+                      to teach web development with
+                      <a href="https://rubyonrails.org/">Ruby on Rails</a>.
+                      This is the sample app for the tutorial.
+    contact:
+      contacttxt1_html: Contact the Ruby on Rails Tutorial about the sample app at the
+                        <a href="https://www.railstutorial.org/contact">contact page</a>.
+
+
+
