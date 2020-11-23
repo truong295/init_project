@@ -36,6 +36,7 @@ en:
   vietnamese: "Vietnamese"
   log in: "Log in"
   sign up now: "Sign up now"
+  sign up: "Sign Up"
   sample app: "Sample App"
   contact: "Contact"
   about: "About"
@@ -66,6 +67,21 @@ en:
     contact:
       contacttxt1_html: Contact the Ruby on Rails Tutorial about the sample app at the
                         <a href="https://www.railstutorial.org/contact">contact page</a>.
+
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Confirmation"
+      submit: "Create my account"
+  noti:
+    form_contains:
+      zero: "No errors"
+      one: "One error"
+      other: "The form contains %{count} errors"
+    not_found: "User Not Found"
+    success: "Welcome to the Sample App!"
 
 
 

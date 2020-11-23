@@ -6,6 +6,8 @@ vi:
   vietnamese: "Tiếng Việt"
   log in: "Đăng Nhập"
   sign up now: "Đăng ký ngay"
+  sign up: "Đăng ký"
+  submit: "Tạo tài khoản"
   sample app: "Sample App"
   contact: "Liên hệ"
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -34,3 +36,17 @@ vi:
       contacttxt1_html: Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
                         <a href="https://www.railstutorial.org/contact">contact page</a>.
 
+  users:
+    new:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+  noti:
+    form_contains:
+      zero: "Không tìm thấy lỗi"
+      one: "Biểu mẫu có 1 lỗi"
+      other: "Biểu mẫu có %{count} lỗi"
+    not_found: "Không tìm thấy tài khoản nào"
+    success: "Chào mừng bạn đến với Sample App"
