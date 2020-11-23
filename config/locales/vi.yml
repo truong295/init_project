@@ -1,0 +1,36 @@
+vi:
+  home: "Trang chủ"
+  about: "Thông tin"
+  help: "Hỗ trợ"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  log in: "Đăng Nhập"
+  sign up now: "Đăng ký ngay"
+  sample app: "Sample App"
+  contact: "Liên hệ"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  author_html: <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+                bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>
+  static_pages:
+    home:
+      hometxt1: "Chào mừng đến với Sample App"
+      hometxt2: "Đây là trang chủ của ứng dụng mẫu Ruby on Rails Tutorial"
+    help:
+      helptxt1_html: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang
+                <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
+                Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+                <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+                book</a>.
+    about:
+      abouttxt1_html: Hướng dẫn về <a href="https://www.railstutorial.org/"><em>Ruby on Rails
+                      Tutorial</em></a>,một phần của dòng hướng dẫn
+                      <a href="https://www.learnenough.com/">Learn Enough</a> là một loạt
+                      <a href="https://www.railstutorial.org/book">sách</a> và
+                      <a href="https://screencasts.railstutorial.org/">video</a>
+                      để dạy phát triển web với
+                      <a href="https://rubyonrails.org/">Ruby on Rails</a>.
+                      Đây là ứng dụng mẫu cho hướng dẫn.
+    contact:
+      contacttxt1_html: Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
+                        <a href="https://www.railstutorial.org/contact">contact page</a>.
+
