@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by(id: params[:id])
-    log_in @user
     return if @user
 
     flash[:warning] = t "noti.not_found"
@@ -16,12 +15,12 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       flash[:success] = t "noti.success"
+      log_in @user
       redirect_to @user
     else
       render :new
     end
   end
-
   private
 
   def user_params
