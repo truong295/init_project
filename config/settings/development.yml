@@ -5,3 +5,8 @@ user:
     max_length: 255
   password:
     min_length: 6
+page:
+  per_page: 15
+avatar:
+  show_size: 50
+  size: 80
