@@ -57,6 +57,10 @@ vi:
       signup: "Chưa có tài khoản?"
       login: "Đăng nhập"
       remember: "Lưu tài khoản trên thiết bị này"
+  users_mailer:
+    hello: "Chào %{name} "
+    welcome: "Chào mừng đến với Sample App! Bấm vào đường dẫn bên dưới để kích hoạt tài khoản"
+    active: "Kích hoạt"
 
   noti:
     form_contains:
@@ -72,4 +76,7 @@ vi:
     delete_fail: "Xóa không thành công"
     login: "Vui lòng thực hiện đăng nhập"
     confirm: "Bạn đã chắc chưa?"
-
+    active: "Tài khoản của bạn chưa được kích hoạt. Vui lòng kiểm tra email để kích hoạt"
+    send_active: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+    activated: "Tài khoản đã được kích hoạt!"
+    active_fail: "Đường dẫn kích hoạt không hợp lệ"
