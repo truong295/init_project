@@ -10,6 +10,14 @@ vi:
   submit: "Tạo tài khoản"
   sample app: "Sample App"
   contact: "Liên hệ"
+  name: "Tên"
+  email: "Email"
+  password: "Mật khẩu"
+  logout: "Đăng xuất"
+  profile: "Trang cá nhân"
+  setting: "Cài đặt"
+  user: "Người dùng"
+  account: "Tài khoản"
   base_title: "Ruby on Rails Tutorial Sample App"
   author_html: <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                 bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>
@@ -38,11 +46,13 @@ vi:
 
   users:
     new:
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
       confirm: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
+  sessions:
+    new:
+      signup: "Chưa có tài khoản?"
+      login: "Đăng nhập"
+
   noti:
     form_contains:
       zero: "Không tìm thấy lỗi"
@@ -50,3 +60,4 @@ vi:
       other: "Biểu mẫu có %{count} lỗi"
     not_found: "Không tìm thấy tài khoản nào"
     success: "Chào mừng bạn đến với Sample App"
+    login_fail: "Sai email hoặc mật khẩu"

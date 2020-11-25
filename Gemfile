@@ -14,6 +14,7 @@ gem  "bootsnap", ">= 1.4.2", require: false
 gem "rails-i18n"
 gem "bcrypt", "~> 3.1", ">= 3.1.12"
 gem "config"
+gem "jquery-rails", "4.3.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
