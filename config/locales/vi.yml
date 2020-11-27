@@ -52,6 +52,7 @@ vi:
     new:
       signup: "Chưa có tài khoản?"
       login: "Đăng nhập"
+      remember: "Lưu tài khoản trên thiết bị này"
 
   noti:
     form_contains:

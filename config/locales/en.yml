@@ -53,6 +53,7 @@ en:
     new:
       signup: New user?
       login: "Log in"
+      remember: "Remember me on this computer"
   noti:
     form_contains:
       zero: "No errors"
