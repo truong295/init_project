@@ -18,6 +18,8 @@ vi:
   setting: "Cài đặt"
   user: "Người dùng"
   account: "Tài khoản"
+  update: "Cập nhật"
+  delete: "Xóa"
   base_title: "Ruby on Rails Tutorial Sample App"
   author_html: <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                 bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>
@@ -48,6 +50,8 @@ vi:
     new:
       confirm: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
+    index:
+      all_user: "Tất cả người dùng"
   sessions:
     new:
       signup: "Chưa có tài khoản?"
@@ -62,3 +66,10 @@ vi:
     not_found: "Không tìm thấy tài khoản nào"
     success: "Chào mừng bạn đến với Sample App"
     login_fail: "Sai email hoặc mật khẩu"
+    update: "Cập nhật thành công"
+    delete: "Xóa thành công"
+    update_fail: "Cập nhật không thành công"
+    delete_fail: "Xóa không thành công"
+    login: "Vui lòng thực hiện đăng nhập"
+    confirm: "Bạn đã chắc chưa?"
+

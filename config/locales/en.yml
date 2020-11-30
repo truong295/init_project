@@ -16,7 +16,9 @@ en:
   profile: "Profile"
   setting: "Settings"
   user: "Users"
+  update: "Update"
   account: "Account"
+  delete: "Delete"
   base_title: "Ruby on Rails Tutorial Sample App"
   author_html: The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
@@ -49,6 +51,8 @@ en:
     new:
       confirm: "Confirmation"
       submit: "Create my account"
+    index:
+      all_user: "All users"
   sessions:
     new:
       signup: New user?
@@ -62,6 +66,12 @@ en:
     not_found: "User Not Found"
     success: "Welcome to the Sample App!"
     login_fail: "Invalid email/password combination"
+    update: "Updated Success"
+    delete: "Deleted Sucess"
+    update_fail: "Fail to Update"
+    delete_fail: "Fail to Delete"
+    login: "Please log in."
+    confirm: "Are you sure?"
 
 
 
