@@ -58,6 +58,10 @@ en:
       signup: New user?
       login: "Log in"
       remember: "Remember me on this computer"
+  users_mailer:
+    hello: "Hi %{name}"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Activation"
   noti:
     form_contains:
       zero: "No errors"
@@ -72,6 +76,7 @@ en:
     delete_fail: "Fail to Delete"
     login: "Please log in."
     confirm: "Are you sure?"
-
-
-
+    active: "Account not activated. Check your email for the activation link."
+    send_active: "Please check your email to activate your account."
+    activated: "Account activated!"
+    active_fail: "Invalid activation link"
