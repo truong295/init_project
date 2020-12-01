@@ -10,3 +10,5 @@ page:
 avatar:
   show_size: 50
   size: 80
+mail:
+  time_expired: 2

@@ -7,12 +7,13 @@ vi:
   log in: "Đăng Nhập"
   sign up now: "Đăng ký ngay"
   sign up: "Đăng ký"
-  submit: "Tạo tài khoản"
+  submit: "Xác nhận"
   sample app: "Sample App"
   contact: "Liên hệ"
   name: "Tên"
   email: "Email"
   password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
   logout: "Đăng xuất"
   profile: "Trang cá nhân"
   setting: "Cài đặt"
@@ -20,6 +21,8 @@ vi:
   account: "Tài khoản"
   update: "Cập nhật"
   delete: "Xóa"
+  title_reset: "Đặt lại mật khẩu"
+  forgot_password: "Quên mật khẩu"
   base_title: "Ruby on Rails Tutorial Sample App"
   author_html: <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                 bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>
@@ -62,6 +65,16 @@ vi:
     welcome: "Chào mừng đến với Sample App! Bấm vào đường dẫn bên dưới để kích hoạt tài khoản"
     active: "Kích hoạt"
 
+  user_mailer:
+    hello: "Chào"
+    welcome: "Chào mừng đến với Sample App! Bấm vào đường dẫn bên dưới để kích hoạt tài khoản"
+    active: "Kích hoạt"
+    password_reset:
+      reset_text1: "Để đặt lại mật khẩu nhấn đường dẫn bên dưới"
+      reset_time: "Đường dẫn này sẽ mất hiệu lực sau 2 tiếng"
+      reset_text2: "Nếu bạn không muốn đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn vẫn như cũ."
+      reset: "Đặt lại mật khẩu"
+
   noti:
     form_contains:
       zero: "Không tìm thấy lỗi"
@@ -80,3 +93,8 @@ vi:
     send_active: "Vui lòng kiểm tra email để kích hoạt tài khoản"
     activated: "Tài khoản đã được kích hoạt!"
     active_fail: "Đường dẫn kích hoạt không hợp lệ"
+    mail_reset: "Đã gởi yêu cầu đặt lại mật khẩu qua mail"
+    email_not_found: "Không tìm thấy email nào"
+    reseted: "Mật khẩu đã được đặt lại"
+    expired: "Yêu câu đã quá hạn"
+    empty: "Không thể để trống"
